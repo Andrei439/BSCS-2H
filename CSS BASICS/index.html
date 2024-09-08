@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filipino Restaurant Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Our Filipino Restaurant</h1>
+            <p>Experience the authentic taste of the Philippines with our delicious dishes.</p>
+        </header>
+        
+        <section class="menu-section">
+            <h2>Appetizers</h2>
+            <article class="menu-item">
+                <h3>Spring Rolls (Lumpiang Shanghai)</h3>
+                <p>Crispy pork spring rolls with a savory filling.</p>
+                <img src="lumpiang-shanghai.jpg" alt="Spring Rolls">
+            </article>
+            <article class="menu-item">
+                <h3>Grilled Skewers (Isaw)</h3>
+                <p>Grilled chicken or pork intestines, a popular street food.</p>
+                <img src="isaw.jpg" alt="Grilled Skewers">
+            </article>
+        </section>
+        
+        <section class="menu-section">
+            <h2>Main Courses</h2>
+            <article class="menu-item">
+                <h3>Adobo</h3>
+                <p>Chicken or pork braised in soy sauce, vinegar, and spices.</p>
+                <img src="adobo.jpg" alt="Adobo">
+            </article>
+            <article class="menu-item">
+                <h3>Sinigang na Baboy</h3>
+                <p>Pork stew with a tangy tamarind broth and vegetables.</p>
+                <img src="sinigang.jpg" alt="Sinigang na Baboy">
+            </article>
+        </section>
+        
+        <section class="menu-section">
+            <h2>Desserts</h2>
+            <article class="menu-item">
+                <h3>Leche Flan</h3>
+                <p>Creamy caramel custard, a beloved Filipino dessert.</p>
+                <img src="leche-flan.jpg" alt="Leche Flan">
+            </article>
+            <article class="menu-item">
+                <h3>Halo-Halo</h3>
+                <p>A refreshing mix of shaved ice, sweet beans, fruits, and leche flan.</p>
+                <img src="halo-halo.jpg" alt="Halo-Halo">
+            </article>
+        </section>
+        
+        <footer>
+            <section class="registration-form">
+                <h2>Register</h2>
+                <form action="#" method="post" enctype="multipart/form-data">
+                    <fieldset>
+                        <legend>Registration Form</legend>
+                        <label for="first-name">First Name:</label>
+                        <input type="text" id="first-name" name="first-name" required>
+                        <br>
+                        <label for="last-name">Last Name:</label>
+                        <input type="text" id="last-name" name="last-name" required>
+                        <br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <br>
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required>
+                        <br>
+                        <fieldset class="account-type">
+                            <legend>Account Type:</legend>
+                            <label>
+                                <input type="radio" id="personal" name="account-type" value="personal" required>
+                                Personal
+                            </label>
+                            <br>
+                            <label>
+                                <input type="radio" id="business" name="account-type" value="business" required>
+                                Business
+                            </label>
+                        </fieldset>
+                        <br>
+                        <label for="photo">Upload Photo:</label>
+                        <input type="file" id="photo" name="photo">
+                        <br>
+                        <input type="submit" value="Register">
+                    </fieldset>
+                </form>
+            </section>
+        </footer>
+    </main>
+</body>
+</html>
